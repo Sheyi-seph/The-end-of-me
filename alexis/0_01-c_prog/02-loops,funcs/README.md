@@ -53,3 +53,6 @@ This func adds, subtracts, multiplies or divides two int arguments and prints th
 
 11-june_10.c
 This func prints all natural numbers from n to m, and a thoughtful line.
+
+12-ntimes.c
+This func prints the n times table up to n * n.
