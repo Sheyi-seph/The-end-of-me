@@ -55,3 +55,6 @@ This script prints the lines containing the word root and the following 3 lines 
 
 17-not_bins
 This script prints all lines not containing the text bin in the file /etc/passwd
+
+18-0_alpha
+This script prints all lines of the file /etc/ssh/sshd_config starting with a letter
