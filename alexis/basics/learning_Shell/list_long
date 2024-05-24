@@ -1,0 +1,4 @@
+#!/bin/bash
+#list files & dirs in long format
+
+ls -l

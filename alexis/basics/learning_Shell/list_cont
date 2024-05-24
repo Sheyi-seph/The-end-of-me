@@ -1,0 +1,4 @@
+#!/bin/bash
+#this command list files and dirs in current directory
+
+ls
