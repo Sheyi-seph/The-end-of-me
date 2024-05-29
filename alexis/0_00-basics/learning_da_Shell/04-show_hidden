@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#this command list files in a directory including hidden
-
-ls -la

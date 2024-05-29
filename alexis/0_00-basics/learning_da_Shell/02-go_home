@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#this command moves to home dir of current user
-
-cd ~
