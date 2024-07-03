@@ -1,4 +1,4 @@
-What prework is all about
+What basics are all about
 0. learning about Linux & scripting
 1. learning source code management
 2. learning git

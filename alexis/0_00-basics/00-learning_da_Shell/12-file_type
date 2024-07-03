@@ -1,2 +1,2 @@
 #!/bin/bash
-type Readme.md
+file Readme.md
