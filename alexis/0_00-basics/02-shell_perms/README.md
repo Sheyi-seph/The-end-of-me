@@ -12,4 +12,7 @@ This command prints the name of the current user
 02-my_groups
 This command prints all the groups the current user is part of
 
+03-betty_own
+This command changes the owner of the file README.md to betty]
+
 
