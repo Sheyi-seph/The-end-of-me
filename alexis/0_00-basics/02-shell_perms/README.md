@@ -13,6 +13,7 @@ This command prints the name of the current user
 This command prints all the groups the current user is part of
 
 03-betty_own
-This command changes the owner of the file README.md to betty]
+This command changes the owner of the file README.md to betty
 
-
+04-blank_file
+This command creates an empty file called bye
