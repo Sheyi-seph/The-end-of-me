@@ -17,3 +17,8 @@ This command changes the owner of the file README.md to betty
 
 04-blank_file
 This command creates an empty file called bye
+
+05-executable
+This script adds executable permission to the file bye for the owner
+
+
