@@ -29,3 +29,6 @@ This script gives the owner, owner group and others execute permission
 
 08-bond
 This script removes all permissions from owner and owner group and gives the others rwx for the file bye
+
+09-mysterious
+This script sets the permission rwxr-x-wx for the file bye
