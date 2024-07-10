@@ -21,4 +21,7 @@ This command creates an empty file called bye
 05-executable
 This script adds executable permission to the file bye for the owner
 
+06-permed_up
+This script gives the owner and owner group execute permission and sets others to read
+
 
