@@ -38,3 +38,6 @@ This script copies the permissions of the file README.md to the file bye
 
 11-perm_subs
 This script give the owner, group and all, executive permissions to all the files and subdirs in the current dir
+
+12-dir_751
+This script creates a dir 'newdir' in the current dir with the permissions 751
