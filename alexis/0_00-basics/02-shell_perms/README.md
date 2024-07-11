@@ -35,3 +35,6 @@ This script sets the permission rwxr-x-wx for the file bye
 
 10-copy_perm
 This script copies the permissions of the file README.md to the file bye
+
+11-perm_subs
+This script give the owner, group and all, executive permissions to all the files and subdirs in the current dir
