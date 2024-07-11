@@ -32,3 +32,6 @@ This script removes all permissions from owner and owner group and gives the oth
 
 09-mysterious
 This script sets the permission rwxr-x-wx for the file bye
+
+10-copy_perm
+This script copies the permissions of the file README.md to the file bye
