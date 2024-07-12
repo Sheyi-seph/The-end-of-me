@@ -47,3 +47,6 @@ This script changes the group of the file bye to home
 
 14-owner_change_and_group
 This script changes the owner to sheyi and group to customer, for all files and subdirs in the current dir
+
+15-sym_perm
+This script changes the owner to sheyi and group to customer, for the symbolic link _bye
