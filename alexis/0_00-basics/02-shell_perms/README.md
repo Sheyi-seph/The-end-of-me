@@ -50,3 +50,6 @@ This script changes the owner to sheyi and group to customer, for all files and 
 
 15-sym_perm
 This script changes the owner to sheyi and group to customer, for the symbolic link _bye
+
+16-conditionally
+This script changes the owner of the file bye from sheyi to akin, if owned by sheyi
