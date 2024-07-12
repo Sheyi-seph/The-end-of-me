@@ -41,3 +41,6 @@ This script give the owner, group and all, executive permissions to all the file
 
 12-dir_751
 This script creates a dir 'newdir' in the current dir with the permissions 751
+
+13-group_change
+This script changes the group of the file bye to home
