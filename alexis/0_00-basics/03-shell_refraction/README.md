@@ -10,3 +10,6 @@ This command prints the emoticon --> "(Ôo)'
 
 02-holafile
 This script prints the content of the /etc/networks file
+
+03-print2
+This script prints the contents of the files /etc/fstab and /etc/mtab
