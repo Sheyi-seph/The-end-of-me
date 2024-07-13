@@ -13,3 +13,6 @@ This script prints the content of the /etc/networks file
 
 03-print2
 This script prints the contents of the files /etc/fstab and /etc/mtab
+
+04-cat++
+This script prints the last 10 lines in the file /etc/hosts
