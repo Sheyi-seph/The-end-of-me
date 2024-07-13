@@ -16,3 +16,6 @@ This script prints the contents of the files /etc/fstab and /etc/mtab
 
 04-cat++
 This script prints the last 10 lines in the file /etc/hosts
+
+05-lords_a_leaping
+This command prints the first 10 lines in the file /etc/profile 
