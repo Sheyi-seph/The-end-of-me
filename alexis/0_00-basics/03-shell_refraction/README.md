@@ -25,3 +25,6 @@ This script prints just the 3rd line of the file README.md
 
 07-fkd_file
 This script creates the file \*\\'"Fked School"\'\\*$\?\*\*\*\*\*:) cotaining the text stupid file
+
+08-printenv_out
+This script redirect the output of the command printenv into the file printenv_out
