@@ -28,3 +28,6 @@ This script creates the file \*\\'"Fked School"\'\\*$\?\*\*\*\*\*:) cotaining th
 
 08-printenv_out
 This script redirect the output of the command printenv into the file printenv_out
+
+09-repeteee
+This script repeates the last line of the README.md into itself
