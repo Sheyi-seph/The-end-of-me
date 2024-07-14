@@ -22,3 +22,6 @@ This script prints the first 10 lines in the file /etc/profile
 
 06-the_3rd
 This script prints just the 3rd line of the file README.md
+
+07-fkd_file
+This script creates the file \*\\'"Fked School"\'\\*$\?\*\*\*\*\*:) cotaining the text stupid file
