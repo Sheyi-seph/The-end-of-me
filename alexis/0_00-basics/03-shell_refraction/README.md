@@ -22,3 +22,18 @@ This script prints the first 10 lines in the file /etc/profile
 
 06-the_3rd
 This script prints just the 3rd line of the file README.md
+
+07-fkd_file
+This script creates the file \*\\'"Fked School"\'\\*$\?\*\*\*\*\*:) cotaining the text stupid file
+
+08-printenv_out
+This script redirect the output of the command printenv into the file printenv_out
+
+09-repeteee
+This script repeates the last line of the README.md into itself
+<<<<<<< HEAD
+
+10-find-n-delete
+This script finds all .js files in the current dir and all it's subdirs and deletes them
+=======
+>>>>>>> 02dc691618aab49370ce6f8c9c34fd8a3f0169b5
