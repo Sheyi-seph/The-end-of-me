@@ -34,3 +34,9 @@ This script repeates the last line of the README.md into itself
 
 10-find-n-delete
 This script finds all .js files in the current dir and all it's subdirs and deletes them
+
+11-count_dirs
+This script counts the number of dirs and sub-dirs in the current dir
+
+12-list_new
+This script list the 10 newest files in the current dir
