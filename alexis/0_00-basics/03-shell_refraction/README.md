@@ -40,3 +40,6 @@ This script counts the number of dirs and sub-dirs in the current dir
 
 12-list_new
 This script list the 10 newest files in the current dir
+
+13-unrepeated
+This script prints out a sorted list of urepeated lines in a given input
