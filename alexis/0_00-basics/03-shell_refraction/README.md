@@ -43,3 +43,6 @@ This script list the 10 newest files in the current dir
 
 13-unrepeated
 This script prints out a sorted list of urepeated lines in a given input
+
+14-where_is
+This script looks for lines containing the word root in the file /etc/passwd
