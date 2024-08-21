@@ -49,3 +49,6 @@ This script looks for lines containing the word root in the file /etc/passwd
 
 15-how_many_lines
 This script finds and counts the number of lines  containing the text bin in the file /etc/passwd
+
+16-next_lines
+This script prints the lines containing the word root and the following 3 lines in the file /etc/passwd
