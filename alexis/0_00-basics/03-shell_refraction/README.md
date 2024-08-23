@@ -64,3 +64,6 @@ This script replaces all occurence of a and c from stdin with z and e respective
 
 20-Beokut
 This script deletes any occurence of A or a from stdin
+
+21-invert
+This script reverses the order of text from stdin
