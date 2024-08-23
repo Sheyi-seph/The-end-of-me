@@ -58,3 +58,6 @@ This script prints all lines not containing the text bin in the file /etc/passwd
 
 18-0_alpha
 This script prints all lines of the file /etc/ssh/sshd_config starting with a letter
+
+19-swApitZy
+This script replaces all occurence of a and c from stdin with z and e respectively
