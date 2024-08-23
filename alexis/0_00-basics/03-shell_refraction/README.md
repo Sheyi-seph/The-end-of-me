@@ -61,3 +61,6 @@ This script prints all lines of the file /etc/ssh/sshd_config starting with a le
 
 19-swApitZy
 This script replaces all occurence of a and c from stdin with z and e respectively
+
+20-Beokut
+This script deletes any occurence of A or a from stdin
