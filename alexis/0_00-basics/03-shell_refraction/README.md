@@ -67,3 +67,6 @@ This script deletes any occurence of A or a from stdin
 
 21-invert
 This script reverses the order of text from stdin
+
+22-name_and_uid
+This script prints out a sorted list of usernames and uid from the /etc/passwd/ file
