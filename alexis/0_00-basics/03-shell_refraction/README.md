@@ -70,3 +70,6 @@ This script reverses the order of text from stdin
 
 22-name_and_uid
 This script prints out a sorted list of usernames and uid from the /etc/passwd/ file
+
+23-find_e
+This script finds all empty files in the current dir and subdirs and prints a sorted list to stdin
