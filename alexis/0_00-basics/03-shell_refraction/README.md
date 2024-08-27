@@ -73,3 +73,6 @@ This script prints out a sorted list of usernames and uid from the /etc/passwd/ 
 
 23-find_e
 This script finds all empty files in the current dir and subdirs and prints a sorted list to stdin
+
+24-find_gifs
+This script finds all files with extension .gif and prints their names only, sorted by byte value
