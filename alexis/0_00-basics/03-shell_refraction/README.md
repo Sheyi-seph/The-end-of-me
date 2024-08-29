@@ -77,7 +77,7 @@ This script finds all empty files in the current dir and subdirs and prints a so
 24-find_gifs
 This script finds all files with extension .gif and prints their names only, sorted by byte value
 
-24-telestich
+25-telestich
 This script cuts off the last character at the end of stdin and joins them together on a line
 
 25-simple_top
