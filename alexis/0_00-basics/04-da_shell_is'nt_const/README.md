@@ -7,4 +7,7 @@ This script sets the ls command to rm -ri
 This script adds /forward to the PATH
 
 03-what_paths
-This script prints the no of paths
+This script prints the no of dirs in the  path
+
+04-unto_all
+This script prints all global variables
