@@ -14,3 +14,9 @@ This script prints all global variables
 
 05-just_you
 This script prints all the local variables
+
+06-star
+This script creates global var "new" with value "star"
+
+07-!star
+Ths script creates local var "not" with value "popular"
