@@ -20,3 +20,6 @@ This script creates global var "new" with value "star"
 
 07-!star
 Ths script creates local var "not" with value "popular"
+
+08-subtraction
+This script prints the result of subtracting 2 from the var delay
