@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {A..Z}{1..9} | tr ' ' '\n' | grep -v '^[EF]'

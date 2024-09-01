@@ -35,3 +35,6 @@ This script prints the remainder of dividing the variables all by ihave
 
 11-beedee
 This script converts the binary value stored in the var BINARY to base 10
+
+12-can't_fail
+This script prints all combinations of A-Z 1-9, except those starting with E or F
