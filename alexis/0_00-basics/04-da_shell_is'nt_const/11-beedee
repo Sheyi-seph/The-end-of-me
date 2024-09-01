@@ -1,0 +1,3 @@
+#!/bin/bash
+temp=$((2#$BINARY))
+echo $temp

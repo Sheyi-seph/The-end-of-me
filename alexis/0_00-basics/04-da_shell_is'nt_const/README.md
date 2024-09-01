@@ -32,3 +32,6 @@ This script prints the result of multiplying the var egg with beans
 
 10-left_over
 This script prints the remainder of dividing the variables all by ihave
+
+11-beedee
+This script converts the binary value stored in the var BINARY to base 10
