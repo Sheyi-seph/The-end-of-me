@@ -11,3 +11,6 @@ This script prints the no of dirs in the  path
 
 04-unto_all
 This script prints all global variables
+
+05-just_you
+This script prints all the local variables
