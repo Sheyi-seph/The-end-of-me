@@ -38,3 +38,6 @@ This script converts the binary value stored in the var BINARY to base 10
 
 12-can't_fail
 This script prints all combinations of A-Z 1-9, except those starting with E or F
+
+13-sink
+This script prints the value in the var num at 2 decimal places
