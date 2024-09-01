@@ -26,3 +26,6 @@ This script prints the result of subtracting 2 from the var delay
 
 09-gastiplication
 This script prints the result of multiplying the var egg with beans
+
+10-left_over
+This script prints the remainder of dividing the variables all by ihave
