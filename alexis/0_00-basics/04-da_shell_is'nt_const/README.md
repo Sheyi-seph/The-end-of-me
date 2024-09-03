@@ -41,3 +41,6 @@ This script prints all combinations of A-Z 1-9, except those starting with E or 
 
 13-sink
 This script prints the value in the var num at 2 decimal places
+
+14-bin_to_hex
+This script converts the binary value stored in the variable BINARY to a hexadecimal
