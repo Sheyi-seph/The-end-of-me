@@ -44,3 +44,6 @@ This script prints the value in the var num at 2 decimal places
 
 14-bin_to_hex
 This script converts the binary value stored in the variable BINARY to a hexadecimal
+
+15-Rot47
+This script encripts text in the Rot47 format
