@@ -14,3 +14,12 @@ This script compiles the code in the var CFILE to the exe cisfuun
 
 03-assembly
 This script compiles code in the var CFILE to assembly '.s' file
+
+04-puttin.c
+This c-file prints the line "This is me putting in c" with the puts function.
+
+05-printinf.c
+This c-file prints "with proper grammar, but the outcome is a piece of art," using printf function.
+
+06-sizeof.c
+This c-file prints the size of different variable types in c
