@@ -8,17 +8,17 @@
 
 int main(void)
 {
-       char hex = '0';
+	char hex = '0';
 
-       while(hex <= 'f')
-       {
-	       if (hex == 58)
-		       hex = 'a';
-	       putchar(hex);
-	       hex++;
-       }
+	while (hex <= 'f')
+	{
+		if (hex == 58)
+			hex = 'a';
+		putchar(hex);
+		hex++;
+	}
 
-       putchar('\n');
+	putchar('\n');
 
-       return (0);
+	return (0);
 }
