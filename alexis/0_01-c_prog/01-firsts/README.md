@@ -13,3 +13,6 @@ This code prints the lowercase alphabet and a newline
 
 03-puttin-alPHA.c
 This code prints the lower and upppercase alphabet and a newline.
+
+04-jumping_jks
+This code prints the alphabet but skips letters 'a' and 'c'.
