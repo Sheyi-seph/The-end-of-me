@@ -22,3 +22,6 @@ This code prints all single base 10 digits.
 
 06-puttin_digits.c
 This code prints all single base 10 digits using ascii and putchar.
+
+06-rev_alpha
+This code prints the lowercase alphabet in reverse order.
