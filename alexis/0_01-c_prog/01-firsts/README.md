@@ -19,3 +19,6 @@ This code prints the alphabet but skips letters 'a' and 'c'.
 
 05-digits.c
 This code prints all single base 10 digits.
+
+06-puttin_digits.c
+This code prints all single base 10 digits using ascii and putchar.
