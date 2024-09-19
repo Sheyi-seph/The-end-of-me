@@ -28,3 +28,6 @@ This code prints the lowercase alphabet in reverse order.
 
 08-hexa.c
 This code prints all hexadecimal digits.
+
+09-puttin_comb.c
+This code prints single base 10 digits followed by a comma and space, then a new line.
