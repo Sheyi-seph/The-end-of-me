@@ -16,3 +16,6 @@ This code prints the lower and upppercase alphabet and a newline.
 
 04-jumping_jks
 This code prints the alphabet but skips letters 'a' and 'c'.
+
+05-digits.c
+This code prints all single base 10 digits.
