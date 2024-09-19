@@ -23,3 +23,9 @@ This c-file prints "with proper grammar, but the outcome is a piece of art," usi
 
 06-sizeof.c
 This c-file prints the size of different variable types in c
+
+07-intelassm
+This script makes an intel format assembly code from the var CFILE
+
+08-write
+This code writes to stdin using system level call function.
