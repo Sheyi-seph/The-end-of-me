@@ -34,3 +34,6 @@ This code prints single base 10 digits followed by a comma and space, then a new
 
 10-putting_in_twos.c
 This code prints all possible, unique two digits number .combinations
+
+11-puttin_three.c
+This code prints all possible, unique 3 digit number combinations.
