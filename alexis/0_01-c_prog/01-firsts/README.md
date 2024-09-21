@@ -37,3 +37,6 @@ This code prints all possible, unique two digits number .combinations
 
 11-puttin_three.c
 This code prints all possible, unique 3 digit number combinations.
+
+12-put_two_two.c
+This C program generates and prints all unique pairs of two-digit numbers in ascending order.
