@@ -26,3 +26,6 @@ This function prints the letters of the alphabeth backwards.
 
 02-agrypnia.c
 This function prints the letters of the alphabet forwards and backwards 10 times using put_me.
+
+03-is_upper.c
+This function returns 1 for uppercase and 0 for lowercase.
