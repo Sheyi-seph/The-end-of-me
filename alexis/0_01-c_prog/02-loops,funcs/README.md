@@ -22,4 +22,7 @@ This is my header file that'll contains all my function prototypes.
 Is a simple c program that calls the fuction write_mee to print "write meeee" and a new line.
 
 01-alpha_game.c
-This function prototype prints the letters of the alphabeth backwards.
+This function prints the letters of the alphabeth backwards.
+
+02-agrypnia.c
+This function prints the letters of the alphabet forwards and backwards 10 times using put_me.

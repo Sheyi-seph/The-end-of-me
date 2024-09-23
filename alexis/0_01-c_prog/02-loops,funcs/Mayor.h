@@ -7,5 +7,6 @@ void write_mee(char *c);
 int put_me(char c);
 
 void alpha_game(void);
+void agrypnia(void);
 
 #endif
