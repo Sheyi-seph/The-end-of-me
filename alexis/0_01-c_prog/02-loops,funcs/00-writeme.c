@@ -4,17 +4,15 @@
  * Return: 0 on success
  **/
 
-#include <stdio.h>
+#include "Mayor.h"
 
 int main(void)
 {
 	char txt[] = "Write meeee";
 	int i;
 
-	for (i = 0; txt[i] != '\0'; ++i)
-	{
-		putchar(txt[i]);
-	}
+	write_mee(txt);
+	put_me('\n');
 
 	putchar('\n');
 	return (0);

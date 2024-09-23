@@ -9,5 +9,17 @@ nested cursed loops and functions---
 7. What are header files and how are they used with `#include`?
 -----------------------------------------------------
 
+write_mee.c
+This is a function definition for the function write_mee() that prints the characters of a string!.
+
+put_me.c
+This function prints a character to stdout
+
+Mayor.h
+This is my header file that'll contains all my function prototypes.
+
 00-writeme.c
-Is a simple c program that prints "write meeee" and a new line.
+Is a simple c program that calls the fuction write_mee to print "write meeee" and a new line.
+
+01-alpha_game.c
+This function prototype prints the letters of the alphabeth backwards.
