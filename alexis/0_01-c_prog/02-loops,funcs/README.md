@@ -32,3 +32,6 @@ This function returns 1 for uppercase and 0 for lowercase.
 
 04-is_alpha
 This function returns 1 for alphabetic ascii value else it returns 0.
+
+05-signs.c
+This function returns and prints the sign of a value.
