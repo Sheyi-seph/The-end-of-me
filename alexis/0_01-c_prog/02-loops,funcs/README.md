@@ -29,3 +29,6 @@ This function prints the letters of the alphabet forwards and backwards 10 times
 
 03-is_upper.c
 This function returns 1 for uppercase and 0 for lowercase.
+
+04-is_alpha
+This function returns 1 for alphabetic ascii value else it returns 0.
