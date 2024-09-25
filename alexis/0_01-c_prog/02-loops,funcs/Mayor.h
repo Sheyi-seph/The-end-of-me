@@ -11,5 +11,6 @@ void agrypnia(void);
 int is_upper(int n);
 int is_alpha(int a);
 int signs(int v);
+int debby_downer(int l);
 
 #endif

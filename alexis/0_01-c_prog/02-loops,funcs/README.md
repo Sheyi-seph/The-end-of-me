@@ -35,3 +35,6 @@ This function returns 1 for alphabetic ascii value else it returns 0.
 
 05-signs.c
 This function returns and prints the sign of a value.
+
+06-debby_downer.c
+This function returns a negative value or zero regardless of input integer.
