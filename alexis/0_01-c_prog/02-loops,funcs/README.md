@@ -41,3 +41,6 @@ This function returns a negative value or zero regardless of input integer.
 
 07-penultimate.c
 This function prints and returns the second to last digit of an input integer.
+
+08-minutes.c
+This func prints all the minutes in 24 hours.
