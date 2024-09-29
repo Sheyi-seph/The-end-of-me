@@ -47,3 +47,6 @@ This func prints all the minutes in 24 hours.
 
 09-odd_9times.c
 This fuc prints the 10 times table of 9 odd numbers.
+
+10-calc.c
+This func adds, subtracts, multiplies or divides two int arguments and prints the results.

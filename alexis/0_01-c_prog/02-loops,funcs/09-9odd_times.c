@@ -5,11 +5,12 @@
 #include "Mayor.h"
 void odd_9times(void)
 {
+	int i;
 	int n;
 
 	for (n = 1; n < 18; n += 2)
 	{
-		for (int i = 1; i <= 10; i++)
+		for (i = 1; i <= 10; i++)
 		{
 			printf("%d", n * i);
 
