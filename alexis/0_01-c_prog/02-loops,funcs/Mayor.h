@@ -14,5 +14,6 @@ int signs(int v);
 int debby_downer(int l);
 int penultimate(int s);
 void minutes(void);
+void odd_9times(void);
 
 #endif

@@ -44,3 +44,6 @@ This function prints and returns the second to last digit of an input integer.
 
 08-minutes.c
 This func prints all the minutes in 24 hours.
+
+09-odd_9times.c
+This fuc prints the 10 times table of 9 odd numbers.
