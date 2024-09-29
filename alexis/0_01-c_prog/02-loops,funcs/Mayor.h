@@ -16,5 +16,6 @@ int penultimate(int s);
 void minutes(void);
 void odd_9times(void);
 void calc(int n, int m);
+void june_10(int n, int m);
 
 #endif

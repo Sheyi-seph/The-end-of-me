@@ -50,3 +50,6 @@ This fuc prints the 10 times table of 9 odd numbers.
 
 10-calc.c
 This func adds, subtracts, multiplies or divides two int arguments and prints the results.
+
+11-june_10.c
+This func prints all natural numbers from n to m, and a thoughtful line.
