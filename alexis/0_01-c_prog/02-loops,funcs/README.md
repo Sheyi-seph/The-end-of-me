@@ -56,3 +56,6 @@ This func prints all natural numbers from n to m, and a thoughtful line.
 
 12-ntimes.c
 This func prints the n times table up to n * n, within the Range 0 to 15.
+
+13-naturaly_odd.c
+This program prints the sum of all natural numbers below 1024, that are multiples of 3 or 5.
