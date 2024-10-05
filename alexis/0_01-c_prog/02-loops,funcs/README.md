@@ -59,3 +59,6 @@ This func prints the n times table up to n * n, within the Range 0 to 15.
 
 13-naturaly_odd.c
 This program prints the sum of all natural numbers below 1024, that are multiples of 3 or 5.
+
+14-fibonacci.c
+This program prints the first 50 value of the fibonacci sequence.

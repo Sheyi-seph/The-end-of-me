@@ -2,3 +2,5 @@ play/
 hello
 notes.txt
 notes-algo*
+.vscode
+/settings.json
