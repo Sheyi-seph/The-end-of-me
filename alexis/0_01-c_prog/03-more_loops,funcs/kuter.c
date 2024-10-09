@@ -4,6 +4,6 @@ int main (void)
 {
 	int n = 7;
 
-	right_no(n);
+	left_no(n);
 	return (0);
 }

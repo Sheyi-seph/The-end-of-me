@@ -4,4 +4,5 @@
 #include <stdio.h>
 
 void right_no(int n);
+void left_no(int no);
 #endif
