@@ -1,4 +1,9 @@
-/* num triangle pattern
+/**
+ * tri_num - Func to print no in triangle pattern
+ *
+ * @cou: The number of rows to print
+ *
+ * num triangle pattern
  *    1
  *   121
  *  12321

@@ -1,3 +1,10 @@
+/**
+ * nleft_no - Func to print no in left angle
+ *	pattern with spacing
+ *
+ * @cou: The no of rows to print
+ **/
+
 #include "Mayor.h"
 
 void nleft_no(int cou)

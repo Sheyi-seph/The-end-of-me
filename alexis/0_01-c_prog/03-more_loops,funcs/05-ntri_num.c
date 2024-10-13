@@ -1,3 +1,10 @@
+/**
+ * ntri_num - Func to print numbers in an upside
+ *	down triangle pattern
+ *
+ * @cou: The number of rows to print
+ **/
+
 #include "Mayor.h"
 
 void ntri_num(int cou)

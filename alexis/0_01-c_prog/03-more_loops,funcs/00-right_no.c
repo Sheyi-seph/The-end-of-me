@@ -1,11 +1,13 @@
 /**
  * right_no - main entry point
+ *
  * description: prints numbers in a right
  *	angle fashion
- * Return: 0 on success
+ *
+ * @count: The number of rows to print
  **/
 
-#include "Mayor.h" 
+#include "Mayor.h"
 
 void right_no(int count)
 {

@@ -1,3 +1,9 @@
+/**
+ * nright_no - Func print num in right pattern w spaces
+ *
+ * @cou: The no of row to print
+ **/
+
 #include "Mayor.h"
 
 void nright_no(int cou)
