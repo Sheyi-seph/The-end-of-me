@@ -4,6 +4,9 @@ int main (void)
 {
 	int n = 7;
 
-	left_no(n);
+	nright_no(n);
+	nleft_no(n);
+	tri_num(n);
+	ntri_num(n);
 	return (0);
 }
