@@ -31,3 +31,6 @@ This program prints numbers 1-100, but when a number is a factor of 3 it prints 
 
 07-fact.c
 This program prints the factorial of the input number.
+
+08-is_prime.c
+This program prints a number if it's not a prime number or else it prints "Prime".

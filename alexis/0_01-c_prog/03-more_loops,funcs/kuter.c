@@ -2,11 +2,10 @@
 
 int main (void)
 {
-	int n = 7;
+	int n;
 
-	nright_no(n);
-	nleft_no(n);
-	tri_num(n);
-	ntri_num(n);
+	for (n = 1; n < 100; n++)
+		is_prime(n);
+
 	return (0);
 }

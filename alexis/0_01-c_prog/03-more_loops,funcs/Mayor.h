@@ -9,4 +9,5 @@ void nright_no(int cou);
 void nleft_no(int cou);
 void tri_num(int cou);
 void ntri_num(int cou);
+void is_prime(int v);
 #endif
