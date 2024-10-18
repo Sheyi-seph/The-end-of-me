@@ -28,3 +28,6 @@ This function prints a range of positive integers in a upside down tri angle pat
 
 06-fizzbuzz.c
 This program prints numbers 1-100, but when a number is a factor of 3 it prints fizz, when it's a factor of 5 it prints buzz. And when it's a factor of both, it prints fizzbuzz.
+
+07-fact.c
+This program prints the factorial of the input number.
