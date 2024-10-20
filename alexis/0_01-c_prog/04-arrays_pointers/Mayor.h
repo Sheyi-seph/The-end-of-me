@@ -4,5 +4,6 @@
 #include <stdio.h>
 
 void changev(int *v);
+void init(int *ptr);
 
 #endif

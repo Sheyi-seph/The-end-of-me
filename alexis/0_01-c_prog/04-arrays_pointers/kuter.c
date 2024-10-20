@@ -1,17 +1,12 @@
 #include "Mayor.h"
-
-int main(void)
+int main (void)
 {
-	int a = 40;
-	int *ptr;
+	int arr[10];
+	int i;
 
-	ptr = &a;
-	changev(ptr);
-	printf("%d\n", a);
-	a = 304;
-	printf("%d\n", a);
-	changev(ptr);
-	printf("%d\n", a);
+	init(arr);
+	for (i = 0; i < 10; i++)
+		printf("%d", *(arr + i));
 
 	return(0);
 }
