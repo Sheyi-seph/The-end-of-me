@@ -10,8 +10,11 @@ int main (void)
 		printf("%d ", *(arr + i));
 
 	putchar('\n');
-	arr_avg(arr);
-	arr_extremes(arr);
+	arr_fliparr(arr);
 
+	for (i = 0; i < 10; i++)
+		printf("%d ", arr[i]);
+
+	putchar('\n');
 	return(0);
 }

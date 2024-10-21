@@ -15,3 +15,6 @@ This func calculates and prints out the sum and average of and arra of 10 intege
 
 03-arr_extremes.c
 This func finds and prints the largest and smallest no in an array of 10 integers.
+
+04-arr_fliparr.c
+This func flips an array of 10 integers from top to bottom.
