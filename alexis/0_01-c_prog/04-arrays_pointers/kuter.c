@@ -11,6 +11,7 @@ int main (void)
 
 	putchar('\n');
 	arr_avg(arr);
+	arr_extremes(arr);
 
 	return(0);
 }

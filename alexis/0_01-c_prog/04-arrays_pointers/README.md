@@ -12,3 +12,6 @@ This func changes or initializes and array of 10 integer to random values betwee
 
 02-arr_avg.c
 This func calculates and prints out the sum and average of and arra of 10 integers.
+
+03-arr_extremes.c
+This func finds and prints the largest and smallest no in an array of 10 integers.

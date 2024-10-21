@@ -6,5 +6,6 @@
 void changev(int *v);/*changes int value*/
 void init(int *ptr);/*initializes 10 random int in an array*/
 void arr_avg(int *ptr);
+void arr_extremes(int *ptr);
 
 #endif
