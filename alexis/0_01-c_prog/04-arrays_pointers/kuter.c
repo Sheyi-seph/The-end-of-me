@@ -10,11 +10,10 @@ int main (void)
 		printf("%d ", *(arr + i));
 
 	putchar('\n');
-	arr_fliparr(arr);
+	arr_sort(arr);
 
 	for (i = 0; i < 10; i++)
 		printf("%d ", arr[i]);
 
-	putchar('\n');
 	return(0);
 }

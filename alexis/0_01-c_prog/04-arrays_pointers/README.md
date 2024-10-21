@@ -18,3 +18,6 @@ This func finds and prints the largest and smallest no in an array of 10 integer
 
 04-arr_fliparr.c
 This func flips an array of 10 integers from top to bottom.
+
+05-arr_sort.c
+This func sorts an array from smallest to biggest!
