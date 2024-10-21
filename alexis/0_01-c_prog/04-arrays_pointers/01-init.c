@@ -12,6 +12,7 @@
 void init(int *ptr)
 {
 	int i;
+
 	srand(time(NULL));
 
 	for (i = 0; i < 10; i++)

@@ -5,8 +5,12 @@ int main (void)
 	int i;
 
 	init(arr);
+
 	for (i = 0; i < 10; i++)
 		printf("%d ", *(arr + i));
+
+	putchar('\n');
+	arr_avg(arr);
 
 	return(0);
 }
