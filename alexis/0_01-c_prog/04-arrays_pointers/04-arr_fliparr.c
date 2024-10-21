@@ -1,11 +1,11 @@
+#include "Mayor.h"
+#define ARRAY_SIZE 10
+
 /**
- * arr_fliparr - func to flip an array 
+ * arr_fliparr - func to flip an array
  *
  * @ptr: the pointer to the array
  **/
-
-#include "Mayor.h"
-#define ARRAY_SIZE 10
 
 void arr_fliparr(int *ptr)
 {
