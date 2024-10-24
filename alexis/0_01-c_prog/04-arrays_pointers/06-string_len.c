@@ -7,7 +7,7 @@
  **/
 #include "Mayor.h"
 
-int string_len(char *p)
+int string_len(const char *p)
 {
 	int len = 0;
 

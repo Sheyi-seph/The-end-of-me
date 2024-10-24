@@ -10,6 +10,7 @@ void arr_avg(int *ptr);
 void arr_extremes(int *ptr);
 void arr_fliparr(int *ptr);
 void arr_sort(int *arr);
-int string_len(char *p);
+int string_len(const char *p);
+void str_rev(const char *p);
 
 #endif

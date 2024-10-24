@@ -24,3 +24,6 @@ This func sorts an array from smallest to biggest!
 
 06-string_len.c
 This func counts the no of characters in a string and returns the length.
+
+07-str_rev.c
+This func prints a string in reverse.
