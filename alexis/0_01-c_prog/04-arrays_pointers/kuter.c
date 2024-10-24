@@ -1,19 +1,17 @@
 #include "Mayor.h"
-int main (void)
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int arr[10];
-	int i;
+    char *str;
+    int len;
 
-	init(arr);
-
-	for (i = 0; i < 10; i++)
-		printf("%d ", *(arr + i));
-
-	putchar('\n');
-	arr_sort(arr);
-
-	for (i = 0; i < 10; i++)
-		printf("%d ", arr[i]);
-
-	return(0);
+    str = "My first strlen!";
+    len = string_len(str);
+    printf("%d\n", len);
+    return (0);
 }

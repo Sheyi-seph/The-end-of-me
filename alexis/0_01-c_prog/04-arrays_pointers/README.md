@@ -21,3 +21,6 @@ This func flips an array of 10 integers from top to bottom.
 
 05-arr_sort.c
 This func sorts an array from smallest to biggest!
+
+06-string_len.c
+This func counts the no of characters in a string and returns the length.
