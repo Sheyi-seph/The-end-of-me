@@ -27,3 +27,6 @@ This func counts the no of characters in a string and returns the length.
 
 07-str_rev.c
 This func prints a string in reverse.
+
+08-str_cpy.c
+This func copies a string to another and returns a pointer to it.
