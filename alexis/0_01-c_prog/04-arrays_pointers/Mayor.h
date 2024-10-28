@@ -13,5 +13,6 @@ void arr_sort(int *arr);
 int string_len(const char *p);
 void str_rev(const char *p);
 char *str_cpy(char *dest, char *src);
+int toint(char *str);
 
 #endif

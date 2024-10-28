@@ -1,5 +1,4 @@
 #include "Mayor.h"
-#include <string.h>
 
 /**
  * main - check the code
@@ -8,15 +7,23 @@
  */
 int main(void)
 {
-    char s1[98];
-    char *ptr;
+    int nb;
 
-    printf("%u\n", sizeof(s1));
-
-    ptr = str_cpy(s1, "First, solve the problem. Then, write the code\n");
-    printf("%s", s1);
-    printf("%s", ptr);
-    printf("%u\n", sizeof(s1));
-    printf("%d\n", strlen(s1));
+    nb = toint("98");
+    printf("%d\n", nb);
+    nb = toint("-402");
+    printf("%d\n", nb);
+    nb = toint("          ------++++++-----+++++--98");
+    printf("%d\n", nb);
+    nb = toint("214748364");
+    printf("%d\n", nb);
+    nb = toint("0");
+    printf("%d\n", nb);
+    nb = toint("Suite 402");
+    printf("%d\n", nb);
+    nb = toint("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
+    printf("%d\n", nb);
+    nb = toint("---++++ -++ Sui - te -   402 #cisfun :)");
+    printf("%d\n", nb);
     return (0);
 }

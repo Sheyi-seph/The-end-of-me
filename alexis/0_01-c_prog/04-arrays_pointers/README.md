@@ -30,3 +30,6 @@ This func prints a string in reverse.
 
 08-str_cpy.c
 This func copies a string to another and returns a pointer to it.
+
+09=toint.c
+This func converts the num in a string to an integer, returning it including the sign.
