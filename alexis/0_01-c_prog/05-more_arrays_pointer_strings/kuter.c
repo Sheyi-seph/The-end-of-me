@@ -7,11 +7,22 @@
  */
 int main(void)
 {
-    char str[] = "Look up!\n";
-    char *ptr;
+    char s[] = "ROT47 (\"rotate by 47 places\", sometimes hyphenated ROT-47) is a simple letter substitution cipher.\n";
+    char *p;
 
-    ptr = to_upper(str);
-    printf("%s", ptr);
-    printf("%s", str);
+    p = Rot47(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    printf("------------------------------------\n");
+    p = Rot47(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
+    printf("------------------------------------\n");
+    p = Rot47(s);
+    printf("%s", p);
+    printf("------------------------------------\n");
+    printf("%s", s);
     return (0);
 }

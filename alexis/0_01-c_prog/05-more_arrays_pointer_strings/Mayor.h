@@ -7,5 +7,6 @@ char* str_cat(char *dest, char *src);
 char* strn_cat(char *dest, char *src, int n);
 int str_cmp(char *arr1, char *arr2);
 char *to_upper(char *);
+char *Rot47(char *arr);
 
 #endif

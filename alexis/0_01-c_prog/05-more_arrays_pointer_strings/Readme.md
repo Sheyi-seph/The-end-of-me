@@ -14,3 +14,6 @@ This func compares the characters of two strings and returns the difference.
 
 03-to_upper.c
 This func converts all lowercase characters in an array to uppercase.
+
+04-Rot47.c
+%9:D 7F?4 6?4@56D 2 DEC:?8 :? #@Ecf] rot47.net/
