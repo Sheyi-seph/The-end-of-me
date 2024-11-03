@@ -1,28 +1,21 @@
 #include "Mayor.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+ *  * main - check the code
+ *   *
+ *    * Return: Always 0.
+ *     */
 int main(void)
 {
-    char s[] = "ROT47 (\"rotate by 47 places\", sometimes hyphenated ROT-47) is a simple letter substitution cipher.\n";
-    char *p;
-
-    p = Rot47(s);
-    printf("%s", p);
-    printf("------------------------------------\n");
-    printf("%s", s);
-    printf("------------------------------------\n");
-    p = Rot47(s);
-    printf("%s", p);
-    printf("------------------------------------\n");
-    printf("%s", s);
-    printf("------------------------------------\n");
-    p = Rot47(s);
-    printf("%s", p);
-    printf("------------------------------------\n");
-    printf("%s", s);
-    return (0);
+	    print_int(98);
+	        putchar('\n');
+		    print_int(402);
+		        putchar('\n');
+			    print_int(1024);
+			        putchar('\n');
+				    print_int(0);
+				        putchar('\n');
+	    print_int(-98);
+	putchar('\n');
+						    return (0);
 }
