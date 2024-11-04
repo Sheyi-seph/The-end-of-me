@@ -7,22 +7,27 @@
  */
 int main(void)
 {
-    char s[] = "ROT47 (\"rotate by 47 places\", sometimes hyphenated ROT-47) is a simple letter substitution cipher.\n";
-    char *p;
-
-    p = Rot47(s);
-    printf("%s", p);
-    printf("------------------------------------\n");
-    printf("%s", s);
-    printf("------------------------------------\n");
-    p = Rot47(s);
-    printf("%s", p);
-    printf("------------------------------------\n");
-    printf("%s", s);
-    printf("------------------------------------\n");
-    p = Rot47(s);
-    printf("%s", p);
-    printf("------------------------------------\n");
-    printf("%s", s);
+    float n;
+    print_no(98);
+    putchar('\n');
+    print_no(402);
+    putchar('\n');
+    print_no(1024);
+    putchar('\n');
+    print_no(0);
+    putchar('\n');
+    print_no(-98);
+    putchar('\n');
+    printf("--------------------------------------\n");
+    n = flo_mod(31,4);
+    printf("%.2f\n", n);
+    n = flo_mod(31, 3);
+    printf("%.2f\n", n);
+    n = flo_mod(7.25, 3.15);
+    printf("%.2f\n", n);
+    n = flo_mod(200, 30);
+    printf("%.2f\n", n);
+    n = flo_mod(5,2);
+    printf("%.2f\n", n);
     return (0);
 }
