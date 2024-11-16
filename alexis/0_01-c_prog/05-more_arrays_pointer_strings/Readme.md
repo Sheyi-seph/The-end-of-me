@@ -20,3 +20,12 @@ This func converts all lowercase characters in an array to uppercase.
 
 05-print_int.c
 This func takes an integer and prints it's characters without storing.
+
+05-flo_mod.c
+This func finds and returns the remainder of float division.
+
+06-print_no.c
+This func prints an integers characters using its position.
+
+97-1337.c
+This func encodes a string using leet.
