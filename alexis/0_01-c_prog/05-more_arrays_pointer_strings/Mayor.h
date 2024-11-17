@@ -12,5 +12,6 @@ void print_int(int n);
 void print_no(int n);
 float flo_mod(float dom, float denom);
 char *Enc_1337(char *inarr);
+char *cap(char *);
 
 #endif

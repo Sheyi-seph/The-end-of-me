@@ -27,5 +27,8 @@ This func finds and returns the remainder of float division.
 06-print_no.c
 This func prints an integers characters using its position.
 
-97-1337.c
+07-1337.c
 This func encodes a string using leet.
+
+08-capitalize.c
+This func capitalizes all first letters of words in a string that comes after some special characters.
