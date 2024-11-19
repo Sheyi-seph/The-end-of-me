@@ -1,3 +1,10 @@
+/**
+ * findchr - looks for the first occurence of a character in an array
+ *	and returns a pointer to that element else returns NULL
+ * @s: The array to look through
+ * @c: The character to look for
+ * Return: The pointer to the element if found.
+ **/
 #include "Mayor.h"
 
 char *findchr(char *s, char c)
@@ -6,8 +13,11 @@ char *findchr(char *s, char c)
 	char *sptr;
 
 	for (i = 0; s[i] != c; i++)
+	{}
 
-	putchar(s[i]);
-	sptr = &s[i];
+	if (s[i] == c)
+		sptr = &s[i];
+	else
+		sptr = NULL;
 	return (sptr);
 }
