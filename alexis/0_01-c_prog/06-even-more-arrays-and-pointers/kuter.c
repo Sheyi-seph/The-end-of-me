@@ -8,10 +8,10 @@
 int main(void)
 {
     char *s = "hello, world";
-    char *f = "oleh";
-    unsigned int n;
+    char *f = "world";
+    char *t;
 
-    n = spnstr(s, f);
-    printf("%u\n", n);
+    t = brkstrp(s, f);
+    printf("%s\n", t);
     return (0);
 }
