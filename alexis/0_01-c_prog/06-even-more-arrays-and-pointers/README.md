@@ -13,3 +13,6 @@ This func returns the no of matching chars in the initial segment of and array w
 
 03-brkstrp.c
 This func finds the first instance of any char of an array in another, then returns a pointer to that element.
+
+04-strstrstr.c
+This function looks for the first occurence of a string within another and returns a pointer to it if found else a pointer to NULL.
