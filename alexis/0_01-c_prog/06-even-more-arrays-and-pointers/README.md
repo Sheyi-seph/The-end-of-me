@@ -16,3 +16,6 @@ This func finds the first instance of any char of an array in another, then retu
 
 04-strstrstr.c
 This function looks for the first occurence of a string within another and returns a pointer to it if found else a pointer to NULL.
+
+05-chess.c
+This func prints the contents of a multidinensional array
