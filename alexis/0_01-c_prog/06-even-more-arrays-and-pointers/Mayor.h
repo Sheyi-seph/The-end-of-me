@@ -9,5 +9,6 @@ unsigned int spnstr(char *s, char *inp);
 char *brkstrp(char *s, char *inp);
 char *strstrstr(char *hay, char *nee);
 void chess(char (*b)[8]);
+void diagsum(int *a, int size);
 
 #endif

@@ -19,3 +19,6 @@ This function looks for the first occurence of a string within another and retur
 
 05-chess.c
 This func prints the contents of a multidinensional array
+
+06-diagsum.c
+This func finds and prints the sum of the diagonals of a square matrix.
