@@ -8,9 +8,15 @@
  */
 int main(void)
 {
-    int n;
+    int r;
 
-    n = strlenr("Corbin Coleman");
-    printf("%d\n", n);
+    r = factr(1);
+    printf("%d\n", r);
+    r = factr(5);
+    printf("%d\n", r);
+    r = factr(10);
+    printf("%d\n", r);
+    r = factr(-1024);
+    printf("%d\n", r);
     return (0);
 }

@@ -12,6 +12,9 @@ This func prints a string in reverse, by it's individual chars.
 
 02-strlenr.c
 This func returns the length of a string, counting recursively.
+
+03-factr.c
+This func finds and returns the factorial of a num recursively.
 ====================================================
 read from line 1 in a different voice!
 instructions unclear, segmentation fault!
