@@ -1,4 +1,5 @@
 #include "Mayor.h"
+#include <stdio.h>
 
 /**
  * main - check the code
@@ -7,6 +8,9 @@
  */
 int main(void)
 {
-    printrev("\nColton Walker");
+    int n;
+
+    n = strlenr("Corbin Coleman");
+    printf("%d\n", n);
     return (0);
 }

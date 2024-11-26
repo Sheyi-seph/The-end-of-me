@@ -5,5 +5,6 @@
 
 void printstr(char *c);
 void printrev(char *str);
+int strlenr(char *str);
 
 #endif
