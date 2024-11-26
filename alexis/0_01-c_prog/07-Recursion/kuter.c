@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-    printstr("Puts with recursion");
+    printrev("\nColton Walker");
     return (0);
 }
