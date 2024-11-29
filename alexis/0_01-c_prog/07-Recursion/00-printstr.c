@@ -1,3 +1,8 @@
+/**
+ * printstr - This func prints the chars of a string by recursion
+ *
+ * @c: The pointer to the string
+ **/
 #include "Mayor.h"
 
 void printstr(char *c)
