@@ -1,5 +1,4 @@
 #include "Mayor.h"
-#include <stdio.h>
 
 /**
  * main - check the code
@@ -10,17 +9,21 @@ int main(void)
 {
     int r;
 
-    r = rsqrt(1);
+    r = r_prime(1);
     printf("%d\n", r);
-    r = rsqrt(1024);
+    r = r_prime(1024);
     printf("%d\n", r);
-    r = rsqrt(16);
+    r = r_prime(16);
     printf("%d\n", r);
-    r = rsqrt(17);
+    r = r_prime(17);
     printf("%d\n", r);
-    r = rsqrt(25);
+    r = r_prime(25);
     printf("%d\n", r);
-    r = rsqrt(-1);
+    r = r_prime(-1);
+    printf("%d\n", r);
+    r = r_prime(113);
+    printf("%d\n", r);
+    r = r_prime(7919);
     printf("%d\n", r);
     return (0);
 }
