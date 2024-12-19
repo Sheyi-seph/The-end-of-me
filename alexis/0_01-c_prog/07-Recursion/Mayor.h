@@ -10,5 +10,6 @@ int factr(int v);
 int rpow(int n, int pow);
 int rsqrt(int v);
 int r_prime(int v);
+int palindrome(char *str);
 
 #endif

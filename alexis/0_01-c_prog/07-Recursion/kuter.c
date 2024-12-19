@@ -9,21 +9,13 @@ int main(void)
 {
     int r;
 
-    r = r_prime(1);
+    r = palindrome("level");
     printf("%d\n", r);
-    r = r_prime(1024);
+    r = palindrome("redder");
     printf("%d\n", r);
-    r = r_prime(16);
+    r = palindrome("test");
     printf("%d\n", r);
-    r = r_prime(17);
-    printf("%d\n", r);
-    r = r_prime(25);
-    printf("%d\n", r);
-    r = r_prime(-1);
-    printf("%d\n", r);
-    r = r_prime(113);
-    printf("%d\n", r);
-    r = r_prime(7919);
+    r = palindrome("step on no pets");
     printf("%d\n", r);
     return (0);
 }
