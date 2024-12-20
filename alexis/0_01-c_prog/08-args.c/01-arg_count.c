@@ -2,11 +2,8 @@
 
 int main(int argc, char *argv[])
 {
-	int i = 0;
+	int i = argc - 1;
 
-	while (argv[i] != '\0')
-		i++;
-	i--;
 	printf("%d\n", i);
 	return (0);
 }
