@@ -8,21 +8,27 @@
 
 int palindrome(char *str)
 {
+	int i = 0;
+
+
 	if (*str == '\0' || *(str + 1) == '\0')
 		return (1);
-	const char *end = str;
 
-	for (; *(end + 1) != '\0'; end++)
-	{}
+	while(str[i + 1] != '\0')
+		i++;
+
+	char *end;
+	end = &str[i];
 
 	if (*str != *end)
 		return (0);
-	char temp = *end;
-	*((char *)end) = '\0';
+	
+	char russ[i + 1];
 
-	int check = palindrome(str + 1);
+	for (int j = 0; j < (i-1); j++)
+	{
+		russ[j] = str[j + 1];
+	}
 
-	*((char *)end) = temp;
-
-	return (check);
+	return (palindrome(russ));
 }
