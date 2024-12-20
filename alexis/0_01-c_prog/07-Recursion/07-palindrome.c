@@ -30,5 +30,6 @@ int palindrome(char *str)
 		russ[j] = str[j + 1];
 	}
 
+	russ[i - 1] = '\0';
 	return (palindrome(russ));
 }
