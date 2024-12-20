@@ -14,18 +14,17 @@ int palindrome(char *str)
 	if (*str == '\0' || *(str + 1) == '\0')
 		return (1);
 
-	while(str[i + 1] != '\0')
+	while (str[i + 1] != '\0')
 		i++;
 
-	char *end;
-	end = &str[i];
+	char *end = &str[i];
 
 	if (*str != *end)
 		return (0);
-	
+
 	char russ[i + 1];
 
-	for (int j = 0; j < (i-1); j++)
+	for (int j = 0; j < i - 1; j++)
 	{
 		russ[j] = str[j + 1];
 	}

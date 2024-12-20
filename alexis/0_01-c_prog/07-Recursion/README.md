@@ -24,6 +24,9 @@ This func finds and returns the square root of a number else returns -1 for erro
 
 06-R_prime.c
 This func checks if a number is prime and returns 1 if it is or 0 if it is'nt.
+
+07-palindrome.c
+This function checks the chars of a string and returns 1 if they form s palindrome.
 ====================================================
 read from line 1 in a different voice!
 instructions unclear, segmentation fault!
