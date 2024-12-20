@@ -8,3 +8,5 @@ a.exe
 test.c
 agenda.md
 a.out
+*.swp
+*.swo
