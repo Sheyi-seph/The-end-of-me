@@ -10,3 +10,6 @@ This file prints the number of arguments on the terminal when executed excluding
 
 02-list_args.c
 This code prints all the arguments type with it's exe on the terminal.
+
+03-mult.c
+This code multiplies only 2 integer arguments correctly when exe on the terminal.
