@@ -13,3 +13,6 @@ This code prints all the arguments type with it's exe on the terminal.
 
 03-mult.c
 This code multiplies only 2 integer arguments correctly when exe on the terminal.
+
+04-P-add.c
+This code adds only the sum of positive integers on the term and prints error for symbols entered.
