@@ -6,14 +6,9 @@ int main(int argc, char *argv[])
 {
 	int i = 1;
 	int sum = 0;
-	int symcheck;
 
 
-	if (NOSYMIN(argv, argc))
-	{
-		symcheck = 1;
-	}
-	else
+	if (!(NOSYMIN(argv, argc)))
 	{
 		printf("Error");
 		return (1);
