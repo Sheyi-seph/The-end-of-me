@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-char *make_buff(int len, char c)
+char *make_buff(unsigned int len, char c);
 
 #endif
