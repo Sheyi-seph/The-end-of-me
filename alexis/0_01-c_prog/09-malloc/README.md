@@ -4,3 +4,6 @@ mighty allocation 1
 
 00-make_buff.c
 This func creates an array of any length and initailizes it with a single char, also returns NULL for bad length
+
+01-dupstr.c
+This func duplicate a string with malloc and returns a pointer to it, also returns NULL for NULL string or malloc failure.
