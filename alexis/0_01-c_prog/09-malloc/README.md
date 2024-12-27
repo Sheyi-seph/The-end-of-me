@@ -7,3 +7,6 @@ This func creates an array of any length and initailizes it with a single char, 
 
 01-dupstr.c
 This func duplicate a string with malloc and returns a pointer to it, also returns NULL for NULL string or malloc failure.
+
+02-joinstr.c
+This func mallocates a string that is the concatenation of two strings and returns a pointer to it on success.
