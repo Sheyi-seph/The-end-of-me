@@ -10,3 +10,6 @@ This func duplicate a string with malloc and returns a pointer to it, also retur
 
 02-joinstr.c
 This func mallocates a string that is the concatenation of two strings and returns a pointer to it on success.
+
+03-multialloc.c
+This func mallocates space for a multidimensional array and initialized all it's elements to 0.
