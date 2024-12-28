@@ -21,7 +21,7 @@ void print_grid(int **grid, int width, int height)
         w = 0;
         while (w < width)
         {
-            printf("%d, ", grid[h][w]);
+            printf("%d ", grid[h][w]);
             w++;
         }
         printf("\n");
@@ -48,5 +48,6 @@ int main(void)
     grid[0][3] = 98;
     grid[3][4] = 402;
     print_grid(grid, 6, 4);
+    freematrix(grid, 4);
     return (0);
 }
