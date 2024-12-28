@@ -13,3 +13,7 @@ This func mallocates a string that is the concatenation of two strings and retur
 
 03-multialloc.c
 This func mallocates space for a multidimensional array and initialized all it's elements to 0.
+
+04-freematrix.c
+This code frees each pointer(row) in the multiD array and the pointer to 
+those pointers(arr itself), can be compiled with multialloc and kuter.
