@@ -7,14 +7,11 @@
  */
 int main(void)
 {
-    char *s = "hello";
-    char *f;
+    char *s0 = "Bob Dylan";
+    char *s1 = "Robert Allen";
 
-    f = findchr(s, 'l');
-
-    if (f != NULL)
-    {
-        printf("%s\n", f);
-    }
+    printf("%s, %s\n", s0, s1);
+    MoveP(&s1, s0);
+    printf("%s, %s\n", s0, s1);
     return (0);
 }
