@@ -18,7 +18,7 @@ char *dupstr(char *src)
 	while (src[len] != '\0')
 		len++;
 
-	dup = (char *)malloc((len) * sizeof(char));
+	dup = (char *)malloc((len + 1) * sizeof(char));
 	if (dup == NULL)
 		return (NULL);
 
