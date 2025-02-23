@@ -6,10 +6,10 @@ introd: grasping and utilizing static labraries integrated with past works and s
 1-math-ops.c
 performs operations such as +, -, * or /.
 
-2-string-ops.c
+2-str-ops.c
 performs operations on strings
 
-3-pointer-hex.c
+3-ptr-hex.c
 funcs for pointers and arrays
 
 4-mem-job.c
