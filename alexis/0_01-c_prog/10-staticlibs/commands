@@ -1,0 +1,12 @@
+-------------------------
+1- to obj
+-------------------------
+2-str_funcs.c -c -I../includes -o ../objs/strng.o (compiles str_funcs.c to a strng.o object file, located in ../objs and links a header file in ../includes)
+-------------------------
+2- add to lib
+-------------------------
+ar -rcs ../libs/libmayorlib.a 2-strng.o(adds 2-strn.o to libmayorlib.a archive whith instructions to update, create archive and index)
+-------------------------
+3- view
+-------------------------
+ar -rcs ../libs/libmayorlib.a 2-strng.o ( view contents of libmayorlib.a archive)

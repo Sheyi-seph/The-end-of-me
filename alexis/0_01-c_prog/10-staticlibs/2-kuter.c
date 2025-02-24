@@ -11,7 +11,7 @@ int main(void)
     {
         printf("enter a string to reverse\n");
         char *str;
-        scanf("%s", &str);
+        scanf("%s", str);
         reverse(str);
     }
 
