@@ -2,4 +2,5 @@
 #define STRNG_H
 
 void reverse(char *arr);
+void count(char *arr);
 #endif

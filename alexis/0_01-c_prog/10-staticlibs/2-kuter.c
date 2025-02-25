@@ -14,6 +14,13 @@ int main(void)
         scanf("%s", str);
         reverse(str);
     }
+    else if (index == 2)
+    {
+        printf("Enter a string to count");
+        char *str;
+        scanf("%s", str);
+        count(str);
+    }
 
     return(0);
 }
