@@ -13,27 +13,41 @@ void reverse(char *arr)
         putchar(arr[i]);
         i--;
     }
+    putchar('\n');
 }
 
+int isalph(char alp)
+{
+	if(alp >= 'a' && alp <= 'z')
+		return (1);
+	else if(alp >= 'A' && alp <= 'Z')
+		return (1);
+	else
+		return (0);
+}
 void count(char *arr)
 {
-    int i, j;
+    int i, j, temp;
     int vow = 0, con = 0;
-    char *varr = {'a', 'e', 'i', 'o', 'u'};
+    char varr[] = "aeiouAEIOU";
 
     for (i = 0; arr[i] != '\0'; i++)
     {
-        for (j = 0; varr[j] != 0; j++)
-        {
-            if(arr[i] == varr[j])
-            {
-                vow++;
-                break;
-            }
-        }
+	if(isalph(arr[i]))
+	{
+		temp = vow;
+		for (j = 0; varr[j] != '\0'; j++)
+		{
+			    if(arr[i] == varr[j])
+			    {
+				vow++;
+				break;
+			    }
+		}
+		if(temp == vow)
+			con++;
+	}
     }
 
-    i--;
-    con = i - vow;
-    printf("vowels: %d, consonats: %d all: %d", vow, con, i);
+    printf("vowels: %d, consonats: %d all: %d\n", vow, con, i);
 }
