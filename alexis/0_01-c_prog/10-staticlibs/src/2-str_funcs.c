@@ -51,3 +51,21 @@ void count(char *arr)
 
     printf("vowels: %d, consonats: %d all: %d\n", vow, con, i);
 }
+
+void crypt(char *arr)
+{
+	int i;
+
+	for (i = 0; arr[i] != '\0'; i++)
+	{
+		if(arr[i] >= 33 && arr[i] <= 126)
+		{
+			if(arr[i] >= 33 && arr[i] <= 79)
+				putchar(arr[i] + 47);
+			else
+				putchar(arr[i] - 47);
+		}
+	}
+	putchar('\n');
+}
+
