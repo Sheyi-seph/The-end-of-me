@@ -4,4 +4,5 @@
 void reverse(char *arr);
 void count(char *arr);
 void crypt(char *arr);
+void FixL(char *inarr);
 #endif

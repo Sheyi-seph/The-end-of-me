@@ -36,6 +36,11 @@ Enter an index number only\n");
 	    crypt(str);
 	    free(str);
     }
+    else if (index == 4)
+    {
+	    char arr[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+	    FixL(arr);
+    }
 
     return(0);
 }
