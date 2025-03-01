@@ -71,16 +71,17 @@ void crypt(char *arr)
 
 void FixL(char *inarr)
 {
-	char separr[15] = {' ', '"',  '\n', ',', '.', ':', ';', '	', '?', '!', '(', ')', '{', '}', '\n'};
+	char separr[15] = {' ', '"',  '\n', ',', '.', ':', ';', '\t', '?', '!', '(', ')', '{', '}', '\0'};
 	int i, ii;
+
+	if (inarr[0] >= 'a' && inarr[0] <= 'z')
+		inarr[0] -= 32;
+	/*fix first letter*/
 
 	for (i = 0; inarr[i] != '\n'; i++)
 	{
-		if (inarr[0] >= 'a' && inarr[0] <= 'z')
-			inarr[0] -= 32;
-		/*fix first letter*/
 
-		for (ii = 0; separr[ii] != '\n'; ii++)
+		for (ii = 0; separr[ii] != '\0'; ii++)
 		{
 			if (inarr[i] == separr[ii])
 			{
@@ -90,6 +91,9 @@ void FixL(char *inarr)
 		}
 		/*find separators and change lowercase next to upper*/
 
-		putchar(inarr[i]);
+		//putchar(inarr[i]);
 	}
+
+	printf("%s", inarr);
+	putchar('\n');
 }

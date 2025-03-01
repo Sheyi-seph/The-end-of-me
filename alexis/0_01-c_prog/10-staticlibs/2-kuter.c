@@ -9,6 +9,7 @@ int main(void)
     1: reverse\n \
     2: count\n \
     3: crypt\n \
+    4: Fix line\n \
 Enter an index number only\n");
     scanf("%d", &index);
     if (index == 1)
@@ -29,7 +30,7 @@ Enter an index number only\n");
     {
 	    char *str = NULL;
 	    size_t len = 0;
-	    printf("Enter a string to encrypt or decrypt(No limitss;)");
+	    printf("Enter a string to encrypt or decrypt(No limitss;)\n");
 	    getchar();
 
 	    getline(&str, &len, stdin);
@@ -38,8 +39,18 @@ Enter an index number only\n");
     }
     else if (index == 4)
     {
-	    char arr[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
-	    FixL(arr);
+	    char *str = NULL;
+	    size_t len = 0;
+	    printf("Enter words or sentences to fix.\n");
+	    getchar();
+
+	    getline(&str, &len, stdin);
+
+	    size_t last = len - 1;
+	    if (str[last] == '\n')
+		    str[last] = '\0';
+	    FixL(str);
+	    free(str);
     }
 
     return(0);
