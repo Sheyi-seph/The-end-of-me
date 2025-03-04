@@ -52,6 +52,10 @@ Enter an index number only\n");
 	    FixL(str);
 	    free(str);
     }
+    else if(index == 5)
+    {
+	    passwd();
+    }
 
     return(0);
 }
