@@ -10,6 +10,7 @@ int main(void)
     2: count\n \
     3: crypt\n \
     4: Fix line\n \
+    5: password generator\n \
 Enter an index number only\n");
     scanf("%d", &index);
     if (index == 1)
@@ -55,6 +56,10 @@ Enter an index number only\n");
     else if(index == 5)
     {
 	    passwd();
+    }
+    else
+    {
+	    printf("Out of bounds index, enter 1,2,3,4 or 5\n");
     }
 
     return(0);

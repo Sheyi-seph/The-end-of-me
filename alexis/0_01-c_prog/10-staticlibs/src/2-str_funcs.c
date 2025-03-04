@@ -104,7 +104,6 @@ void passwd(void)
 {
 	int n, rand1, rand2;
 	char *charr, *paarr;
-	int laste = 0, lasto = 0;
 	int i = 0, min, max;
 
 	charr = "@#$%^&*()-_=+";
@@ -119,45 +118,40 @@ void passwd(void)
 	while(i < n)
 	{
 		rand1 = rand();
-		if(rand1 % 2 == 0)
+		if(rand1 % 2 == 0 && rand1 % 6 < rand1 % 8)
 		{
-			if(rand1 % 6 < rand1 % 8)
-			{
-				min = 1, max = 26;
-				rand2 = min + rand() % (max - min + 1);
-				paarr[i] = rand2 + 96;
-			}
-			else if(rand1 % 8 < rand1 % 6)
-			{
-				min = 1, max = 26;
-				rand2 = min + rand() % (max - min + 1);
-				paarr[i] = rand2 + 64;
-			}
+			min = 1, max = 26;
+			rand2 = min + rand() % (max - min + 1);
+			paarr[i] = rand2 + 96;
 		}
-		else if(rand1 % 2 != 0)
+		else if(rand1 % 2 == 0 && rand1 % 8 < rand1 % 6)
 		{
-			if(rand1 % 5 < rand1 % 7)
-			{
-				min = 0, max = 9;
-				rand2 = min + rand() % (max - min + 1);
-				paarr[i] = '0' + rand2;
-			}
-			else if(rand1 % 7 < rand1 % 5)
-			{
-				min = 0, max = 12;
-				rand2 = min + rand() % (max - min + 1);
-				paarr[i] = charr[rand2];
-			}
+			min = 1, max = 26;
+			rand2 = min + rand() % (max - min + 1);
+			paarr[i] = rand2 + 64;
+		}
+		else if(rand1 % 2 != 0 && rand1 % 5 < rand1 % 7)
+		{
+			min = 0, max = 9;
+			rand2 = min + rand() % (max - min + 1);
+			paarr[i] = '0' + rand2;
+		}
+		else if(rand1 % 2 != 0 && rand1 % 7 < rand1 % 5)
+		{
+			min = 0, max = 12;
+			rand2 = min + rand() % (max - min + 1);
+			paarr[i] = charr[rand2];
 		}
 		else
 		{
-			paarr[i] = ':';
+			paarr[i] = charr[rand1 % 10];
 		}
 		i++;
-		printf("r1: %d, r2: %d\n", rand1, rand2);
 	}
 
-	paarr[n] = '\n';
-	printf("%s\n", paarr);
+	paarr[n] = '\0';
+	for(i = 0; paarr[i] != '\0'; i++)
+		putchar(paarr[i]);
+	putchar('\n');
 	free(paarr);
 }
