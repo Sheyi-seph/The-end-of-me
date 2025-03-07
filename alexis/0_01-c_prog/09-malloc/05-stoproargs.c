@@ -14,6 +14,8 @@ char *stoproargs(int ac, char **av)
 	}
 
 	outarr = (char *)malloc((len + 1) * sizeof(char));
+	if(!outarr)
+		return(NULL);
 
 	for (i = 1; i < ac; i++)
 	{
