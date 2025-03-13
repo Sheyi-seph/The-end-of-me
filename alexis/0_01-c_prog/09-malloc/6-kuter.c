@@ -27,12 +27,13 @@ int main(void)
 {
     char **tab;
 
-    tab = splistri("      ALX School         #cisfun      ");
+    tab = splistri("ALX School         #cisfun      ");
     if (tab == NULL)
     {
         printf("Failed\n");
         return (1);
     }
     print_tab(tab);
+    free(tab);
     return (0);
 }
