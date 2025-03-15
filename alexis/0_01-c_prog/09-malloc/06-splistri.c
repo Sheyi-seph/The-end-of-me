@@ -9,24 +9,15 @@ char **splistri(char *str)
 	row = 0;
 	for(i = 0; str[i] != '\0'; i++)
 	{
-		if(str[i] != ' ')
-		{
-			ii = i;
+		if(str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
 			row++;
-			while(str[ii] != ' ' && str[ii] != '\0')
-			{
-				ii++;
-				i++;
-			}
-		}
-
-		if(str[i] == '\0')
-			break;
 	}/*find no or rows/words*/
-	if (row)
-		arr = (char **) malloc(sizeof(char *) * (row + 1));
-	else
-		return (NULL);
+
+	if (!row)
+		return(NULL);
+	arr = (char **)malloc(sizeof(char *) * (row + 1));
+	if(!arr)
+		return(NULL);
 
 	spa = 0, ii = 0, len = 0;
 	for(i = 0; str[i] != '\0'; i++)
