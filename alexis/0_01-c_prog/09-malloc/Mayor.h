@@ -10,6 +10,6 @@ char *joinstr(char *a1, char *a2);
 int **multialloc(int rows, int cols);
 void freematrix(int **arr, int cols);
 char *stoproargs(int ac, char **av);
-void splistri(char *str);
+char **splistri(char *str);
 
 #endif
