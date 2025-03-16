@@ -50,7 +50,7 @@ char **splistri(char *str)
 		}
 		if (i > row) 
 		{
-			arr[spa][i - row + 1] = '\0';
+			arr[spa][i - row] = '\0';
 			spa++;
 		}
 
