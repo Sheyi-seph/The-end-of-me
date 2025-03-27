@@ -1,5 +1,5 @@
-#include "00-objmacs.h"
-#include "00-objmacs.h"
+#include "01-pie.h"
+#include "01-pie.h"
 #include <stdio.h>
 
 /**
@@ -9,9 +9,11 @@
  */
 int main(void)
 {
-    int s;
+    float a;
+    float r;
 
-    s = 98 + NUM;
-    printf("%d\n", s);
+    r = 98;
+    a = PIE * r * r;
+    printf("%.3f\n", a);
     return (0);
 }
