@@ -12,7 +12,8 @@ struct cat
 {
 	char *name;
 	char *owner;
-	double age;
+	float age;
 };
 
+void initcat(struct cat *l, char *name, float age, char *owner);
 #endif
