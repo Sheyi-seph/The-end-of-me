@@ -18,4 +18,5 @@ struct cat
 void initcat(struct cat *l, char *name, float age, char *owner);
 void print_cat(struct cat *L);
 typedef struct cat cat_t;
+cat_t *new_cat(char *name, float age, char *owner);
 #endif
