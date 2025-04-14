@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "strng.h"
+#include <stdlib.h>
 
 int main(void)
 {
@@ -7,6 +8,9 @@ int main(void)
     printf("Choose from the following:\n \
     1: reverse\n \
     2: count\n \
+    3: crypt\n \
+    4: Fix line\n \
+    5: password generator\n \
 Enter an index number only\n");
     scanf("%d", &index);
     if (index == 1)
@@ -22,6 +26,40 @@ Enter an index number only\n");
         char str[1000];
         scanf("%999s", str);
         count(str);
+    }
+    else if(index == 3)
+    {
+	    char *str = NULL;
+	    size_t len = 0;
+	    printf("Enter a string to encrypt or decrypt(No limitss;)\n");
+	    getchar();
+
+	    getline(&str, &len, stdin);
+	    crypt(str);
+	    free(str);
+    }
+    else if (index == 4)
+    {
+	    char *str = NULL;
+	    size_t len = 0;
+	    printf("Enter words or sentences to fix.\n");
+	    getchar();
+
+	    getline(&str, &len, stdin);
+
+	    size_t last = len - 1;
+	    if (str[last] == '\n')
+		    str[last] = '\0';
+	    FixL(str);
+	    free(str);
+    }
+    else if(index == 5)
+    {
+	    passwd();
+    }
+    else
+    {
+	    printf("Out of bounds index, enter 1,2,3,4 or 5\n");
     }
 
     return(0);
