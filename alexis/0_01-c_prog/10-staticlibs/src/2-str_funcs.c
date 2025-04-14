@@ -51,3 +51,5 @@ void count(char *arr)
 
     printf("vowels: %d, consonats: %d all: %d\n", vow, con, i);
 }
+
+void crypt(char *)
