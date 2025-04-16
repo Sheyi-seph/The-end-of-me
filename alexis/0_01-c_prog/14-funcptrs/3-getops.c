@@ -16,6 +16,7 @@ int (*getops(char *s))(int, int)
 	{
 		if(ops[i].op[0] == *s || i == 5)
 			return(ops[i].fptr);
+		i++; //how foolish i canbe ;( 
 	}
 	return(NULL);
 }

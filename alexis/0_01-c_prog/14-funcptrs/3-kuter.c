@@ -7,7 +7,7 @@ int main(int ac, char *av[])
 
 	if(ac != 4)
 	{
-		printf("Error");
+		printf("Error\n");
 		exit(98);
 	}
 
@@ -16,12 +16,12 @@ int main(int ac, char *av[])
 	b = atoi(av[3]);
 
 	res = getops(o)(a, b);
-	if(!res)
+	if(getops(o) == NULL)
 	{
-		printf("Error");
+		printf("Error\n");
 		exit(99);
 	}
-	printf("%d", res);
+	printf("%d\n", res);
 
 	return(0);
 }
